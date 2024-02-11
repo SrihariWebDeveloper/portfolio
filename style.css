@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  border-box: box-sizing;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  background-color: #fff;
+}
+nav{
+  height: 50px;
+  width: 100%;
+}
+label.logo{
+  color: #000;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0px 30px;
+  font-weight: Bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  padding: 0px 20px;
+  color: #000;
+}
+nav ul li a{
+  font-size: 20px;
+  font-weight: Bold;
+}
+nav ul li i.fa-regular{
+  display: flex;
+} 
+#x-mark, 
+#check-btn{
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 20px;
+}
+#theam-dark{
+  display: none;
+  color: #fff;
+}
+#theam-light{
+  color: #000;
+}
+a.active,a:hover{
+  padding: 7px 7px;
+  border-radius: 5px;
+}
+.checkbtn{
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 20px;
+  display: none;
+}
+#check{
+  display: none;
+}
+.home-body{
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.home-page .home-body img{
+  position: relative;
+  left: 100px;
+  top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.home-page .home-body .about-text{
+  position: relative;
+  left: 150px;
+  top: 130px;
+  font-size: 30px;
+}
+.home-page .home-body .about-text span{
+  color: dodgerblue;
+}
+.home-page .home-body .about-text .social-icons{
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+}
+.home-page .home-body .about-text .social-icons a{
+  color: currentColor;
+}
+.home-page .home-body .about-text .social-icons i{
+  cursor: pointer;
+  border: 2px solid #ccc;
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 50px;
+}
+.about-page{
+  height: 700px;
+}
+.about-page img{
+  display: none;
+}
+.about-page .about-info{
+  text-align: center;
+}
+.about-page .about-info h2{
+  font-size: 30px;
+  padding-top: 15px;
+}
+.about-page .about-info h4{
+  font-size: 40px;
+  padding-top: 15px;
+}
+.about-page .about-info h4 span{
+  color: dodgerblue;
+}
+.about-page .about-info p{
+  font-size: 20px;
+  padding-top: 5px;
+}
+.about-page .about-info p span{
+  font-size: 20px;
+  font-weight: Bold;
+}
+.about-page .sk-po{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  left: 60px;
+  top: 50px;
+  color: #000;
+} 
+.about-page .sk-po h5{
+  font-size: 30px;
+}
+.about-page .sk-po ul{
+  list-style-type: none;
+}
+.about-page .sk-po ul li{
+  height: 10px;
+  width: 100px;
+  margin: 40px 10px;
+  background: #000;
+}
+.about-page .sk-po ul li:nth-child(1){
+  height: 10px;
+  width: 305px;
+  margin: 40px 10px;
+}
+.about-page .sk-po ul li:nth-child(2){
+  height: 10px;
+  width: 260px;
+  margin: 40px 10px;
+}
+.about-page .sk-po ul li:nth-child(3){
+  height: 10px;
+  width: 250px;
+  margin: 40px 10px;
+} 
+.about-page .sk-po ul li:nth-child(4){
+  height: 10px;
+  width: 200px;
+  margin: 40px 10px;
+} 
+.about-page .sk-po ul li:nth-child(5) {
+  height: 10px;
+  width: 230px;
+  margin: 40px 10px;
+}
+.about-page .sk-po ul li:nth-child(6) {
+  height: 10px;
+  width: 150px;
+  margin: 40px 10px;
+}
+.about-page .sk-po ul li i{
+  height: 6px;
+  width: 300px;
+  margin: 0px 0px;
+  border: 2px solid #ccc;
+  display: flex;
+  mix-blend-mode: different;
+}
+.about-page .sk-po ul li i p{
+  padding-top: 5px;
+}
+.about-page .projects ul a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: Bold;
+  color: currentColor;
+} 
+.services-page{
+  height: 430px;
+}
+.services-page h5{
+  font-size: 30px;
+  text-align: center;
+}
+.services-page .s-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.services-page .s-list .list-1{
+  text-align: center;
+  margin: 10px 0px;
+  background-color: deepskyblue;
+  height: 150px;
+  width: 250px;
+  border-radius: 5px;
+}
+.services-page .s-list .list-1 img{
+  width: 100px;
+  padding-top: 5px;
+}
+.services-page .s-list .list-1 .image{
+  width: 50px;
+}
+.services-page .s-list .list-1 .image-3{
+  width: 150px;
+}
+.contant-page{
+  
+}
+.contant-page h5{
+  text-align: center;
+  font-size: 30px;
+}
+.contant-page .contant-filds{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 100px;
+}
+.contant-page .contant-filds .con-info{
+  position: relative;
+  left: 50px;
+  font-size: 20px;
+}
+.contant-page .contant-filds .con-info i{
+  background-color: #fff;
+  height: 40px;
+  width: 50px;
+  font-size: 30px;
+  color: #000;
+  border-radius: 50px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  border: 2px solid #ccc;
+  margin: 5px 5px;
+}
+.contant-page .input-filds input{
+  margin: 10px 0px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contant-page .input-filds input[type="text"]{
+  padding-left: 5px;
+}
+.contant-page .input-filds textarea[type="text"]{
+  padding-left: 5px;
+}
+.contant-page .input-filds textarea{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contant-page .input-filds button{
+  float: right;
+  height: 30px;
+  width: 100px;
+  color: #fff;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px){
+ .checkbtn{
+   display: block;
+   color: #000;
+ }
+  #x-mark{
+   display: none;
+  }
+  #theam-light{
+    position: relative;
+    text-align: center;
+    display: none;
+  }
+ ul{
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+   background-color: transparent;
+   top: 80px;
+   left: -100%;
+   text-align: center;
+   transition: all 0.5s;
+ }
+ nav ul li{
+   display: block;
+ }
+ nav ul li a{
+   font-size: 20px;
+ }
+ a:hover, a.active{
+   background: none;
+   color: #000;
+ }
+ #check:checked ~ ul{
+   left: 0;
+ }
+ .home-body{
+   flex-direction: column;
+   position: relative;
+   height: 800px;
+   display: none;
+ }
+ .home-page .home-body img{
+   position: relative;
+   left: 60px;
+   width: 300px;
+   top: 100px
+ }
+ .home-page .home-body .about-text{
+   position: relative;
+   left: 0px;
+   width: 422px;
+   text-align: center;
+ }
+ .home-page .home-body .about-text .social-icons{
+   position: relative;
+   left: 60px;
+ }
+ .about-page{
+   position: relative;
+   height: 800px;
+   border-bottom: none;
+   display: none;
+ }
+.about-page img{
+  margin: 50px 60px;
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+}
+ .about-page .about-info{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+ }
+.about-page .about-info h2{
+  font-size: 20px;
+  padding-top: 15px;
+}
+.about-page .about-info h4{
+  font-size: 20px;
+  padding-top: 15px;
+}
+.about-page .about-info h4 span{
+  color: dodgerblue;
+}
+.about-page .about-info p{
+  font-size: 10px;
+  padding-top: 5px;
+}
+.about-page .about-info p span{
+  font-size: 10px;
+  font-weight: Bold;
+} 
+.about-page .sk-po{
+  display: none;
+}
+.services-page{
+  position: relative;
+  height: 700px;
+  border: none;
+  display: none;
+}
+.services-page h5{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+.services-page .s-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+.services-page .s-list .list-1{
+  text-align: center;
+  margin: 10px 0px;
+  background-color: deepskyblue;
+  height: 150px;
+  width: 180px;
+  border-radius: 5px;
+}
+.contant-page{
+  position: relative;
+  height: 800px;
+  display: none;
+  top: 0px;
+}
+.contant-page h5{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.contant-page .contant-filds{
+  flex-direction: column;
+}
+.contant-page .contant-filds .con-info{
+  position: relative;
+  left: 20px;
+  font-size: 15px;
+}
+.contant-page .contant-filds .con-info i{
+  background-color: #fff;
+  height: 30px;
+  width: 40px;
+  font-size: 20px;
+  color: #000;
+  border-radius: 50px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  border: 2px solid #ccc;
+  margin: 5px 5px;
+}
+.contant-page .input-filds input{
+  margin: 10px 0px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+}
